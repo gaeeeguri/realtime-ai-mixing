@@ -10,6 +10,7 @@ include_directories(include)
 add_executable(DSP_Library
     src/main.cpp
     src/SignalGenerator.cpp
+    src/SignalProcessor.cpp
 )
 
 # Google Test
@@ -18,6 +19,16 @@ add_subdirectory(external/googletest)
 include_directories(external/googletest/googletest/include)
 
 # Run Test
-add_executable(runTests tests/test_SignalGenerator.cpp src/SignalGenerator.cpp)
+add_executable(runTests 
+    tests/main.cpp
+    tests/test_SignalGenerator.cpp
+    tests/test_SignalProcessor.cpp
+    tests/test_FilterProcessor.cpp
+    src/SignalGenerator.cpp
+    src/SignalProcessor.cpp
+    src/FilterProcessor.cpp
+)
 target_link_libraries(runTests gtest gtest_main)
-add_test(NAME SignalGeneratorTest COMMAND runTests)
+
+include(GoogleTest)
+gtest_discover_tests(runTests)

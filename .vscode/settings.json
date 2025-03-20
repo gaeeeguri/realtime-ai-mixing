@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["googletest", "gtest"]
+  "cSpell.words": ["coeffs", "googletest", "gtest"],
+  "files.associations": {
+    "vector": "cpp"
+  }
 }
