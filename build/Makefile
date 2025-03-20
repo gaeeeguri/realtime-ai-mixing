@@ -249,6 +249,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/FilterProcessor.o: src/FilterProcessor.cpp.o
+.PHONY : src/FilterProcessor.o
+
+# target to build an object file
+src/FilterProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/FilterProcessor.cpp.o
+.PHONY : src/FilterProcessor.cpp.o
+
+src/FilterProcessor.i: src/FilterProcessor.cpp.i
+.PHONY : src/FilterProcessor.i
+
+# target to preprocess a source file
+src/FilterProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/FilterProcessor.cpp.i
+.PHONY : src/FilterProcessor.cpp.i
+
+src/FilterProcessor.s: src/FilterProcessor.cpp.s
+.PHONY : src/FilterProcessor.s
+
+# target to generate assembly for a file
+src/FilterProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/FilterProcessor.cpp.s
+.PHONY : src/FilterProcessor.cpp.s
+
 src/SignalGenerator.o: src/SignalGenerator.cpp.o
 .PHONY : src/SignalGenerator.o
 
@@ -327,6 +351,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSP_Library.dir/build.make CMakeFiles/DSP_Library.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/main.o: tests/main.cpp.o
+.PHONY : tests/main.o
+
+# target to build an object file
+tests/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/main.cpp.o
+.PHONY : tests/main.cpp.o
+
+tests/main.i: tests/main.cpp.i
+.PHONY : tests/main.i
+
+# target to preprocess a source file
+tests/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/main.cpp.i
+.PHONY : tests/main.cpp.i
+
+tests/main.s: tests/main.cpp.s
+.PHONY : tests/main.s
+
+# target to generate assembly for a file
+tests/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/main.cpp.s
+.PHONY : tests/main.cpp.s
+
+tests/test_FilterProcessor.o: tests/test_FilterProcessor.cpp.o
+.PHONY : tests/test_FilterProcessor.o
+
+# target to build an object file
+tests/test_FilterProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_FilterProcessor.cpp.o
+.PHONY : tests/test_FilterProcessor.cpp.o
+
+tests/test_FilterProcessor.i: tests/test_FilterProcessor.cpp.i
+.PHONY : tests/test_FilterProcessor.i
+
+# target to preprocess a source file
+tests/test_FilterProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_FilterProcessor.cpp.i
+.PHONY : tests/test_FilterProcessor.cpp.i
+
+tests/test_FilterProcessor.s: tests/test_FilterProcessor.cpp.s
+.PHONY : tests/test_FilterProcessor.s
+
+# target to generate assembly for a file
+tests/test_FilterProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_FilterProcessor.cpp.s
+.PHONY : tests/test_FilterProcessor.cpp.s
+
 tests/test_SignalGenerator.o: tests/test_SignalGenerator.cpp.o
 .PHONY : tests/test_SignalGenerator.o
 
@@ -394,6 +466,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... runTests"
+	@echo "... src/FilterProcessor.o"
+	@echo "... src/FilterProcessor.i"
+	@echo "... src/FilterProcessor.s"
 	@echo "... src/SignalGenerator.o"
 	@echo "... src/SignalGenerator.i"
 	@echo "... src/SignalGenerator.s"
@@ -403,6 +478,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... tests/main.o"
+	@echo "... tests/main.i"
+	@echo "... tests/main.s"
+	@echo "... tests/test_FilterProcessor.o"
+	@echo "... tests/test_FilterProcessor.i"
+	@echo "... tests/test_FilterProcessor.s"
 	@echo "... tests/test_SignalGenerator.o"
 	@echo "... tests/test_SignalGenerator.i"
 	@echo "... tests/test_SignalGenerator.s"

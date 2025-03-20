@@ -1,2 +1,15 @@
-SignalGeneratorTest 8 0.00500161
+SignalGeneratorTest 12 0.00473532
+SignalGeneratorTest.GenerateSineWaveSize 1 0.0115012
+SignalGeneratorTest.GenerateSineWaveValueRange 1 0.011132
+SignalGeneratorTest.GenerateSquareWaveSize 1 0.00798454
+SignalGeneratorTest.GenerateSquareWaveValues 1 0.00820054
+SignalGeneratorTest.GenerateTriangleWaveSize 1 0.00695529
+SignalGeneratorTest.GenerateTriangleWaveValueRange 1 0.00813546
+SignalGeneratorTest.GenerateWhiteNoiseSize 1 0.00730804
+SignalGeneratorTest.GenerateWhiteNoiseValueRange 1 0.00830792
+SignalProcessorTest.ResampleSize 1 0.00656688
+SignalProcessorTest.LinearInterpolationSize 1 0.00349892
+SignalProcessorTest.LinearInterpolationValues 1 0.00360438
+FilterProcessorTest.ApplyFIRFilterSize 1 0.0124436
+FilterProcessorTest.FIRFilterSmoothingEffect 1 0.00351029
 ---
