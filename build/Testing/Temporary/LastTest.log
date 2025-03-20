@@ -1,0 +1,31 @@
+Start testing: Mar 20 15:31 KST
+----------------------------------------------------------
+1/1 Testing: SignalGeneratorTest
+1/1 Test: SignalGeneratorTest
+Command: "/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/runTests"
+Directory: /Users/sjpark/Workspace/soundEngineering/DSP_Library/build
+"SignalGeneratorTest" start time: Mar 20 15:31 KST
+Output:
+----------------------------------------------------------
+Running main() from /Users/sjpark/Workspace/soundEngineering/DSP_Library/external/googletest/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from SignalGeneratorTest
+[ RUN      ] SignalGeneratorTest.GenerateSineWaveSize
+[       OK ] SignalGeneratorTest.GenerateSineWaveSize (6 ms)
+[ RUN      ] SignalGeneratorTest.GenerateSineWaveValueRange
+[       OK ] SignalGeneratorTest.GenerateSineWaveValueRange (9 ms)
+[----------] 2 tests from SignalGeneratorTest (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (15 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"SignalGeneratorTest" end time: Mar 20 15:31 KST
+"SignalGeneratorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 20 15:31 KST
