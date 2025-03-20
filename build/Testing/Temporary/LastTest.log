@@ -1,39 +1,43 @@
-Start testing: Mar 20 15:47 KST
+Start testing: Mar 20 15:53 KST
 ----------------------------------------------------------
 1/1 Testing: SignalGeneratorTest
 1/1 Test: SignalGeneratorTest
 Command: "/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/runTests"
 Directory: /Users/sjpark/Workspace/soundEngineering/DSP_Library/build
-"SignalGeneratorTest" start time: Mar 20 15:47 KST
+"SignalGeneratorTest" start time: Mar 20 15:53 KST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/sjpark/Workspace/soundEngineering/DSP_Library/external/googletest/googletest/src/gtest_main.cc
-[==========] Running 6 tests from 1 test suite.
+[==========] Running 8 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 6 tests from SignalGeneratorTest
+[----------] 8 tests from SignalGeneratorTest
 [ RUN      ] SignalGeneratorTest.GenerateSineWaveSize
-[       OK ] SignalGeneratorTest.GenerateSineWaveSize (2 ms)
+[       OK ] SignalGeneratorTest.GenerateSineWaveSize (4 ms)
 [ RUN      ] SignalGeneratorTest.GenerateSineWaveValueRange
-[       OK ] SignalGeneratorTest.GenerateSineWaveValueRange (5 ms)
+[       OK ] SignalGeneratorTest.GenerateSineWaveValueRange (6 ms)
 [ RUN      ] SignalGeneratorTest.GenerateSquareWaveSize
-[       OK ] SignalGeneratorTest.GenerateSquareWaveSize (2 ms)
+[       OK ] SignalGeneratorTest.GenerateSquareWaveSize (3 ms)
 [ RUN      ] SignalGeneratorTest.GenerateSquareWaveValues
-[       OK ] SignalGeneratorTest.GenerateSquareWaveValues (3 ms)
+[       OK ] SignalGeneratorTest.GenerateSquareWaveValues (4 ms)
 [ RUN      ] SignalGeneratorTest.GenerateTriangleWaveSize
-[       OK ] SignalGeneratorTest.GenerateTriangleWaveSize (2 ms)
+[       OK ] SignalGeneratorTest.GenerateTriangleWaveSize (3 ms)
 [ RUN      ] SignalGeneratorTest.GenerateTriangleWaveValueRange
-[       OK ] SignalGeneratorTest.GenerateTriangleWaveValueRange (4 ms)
-[----------] 6 tests from SignalGeneratorTest (21 ms total)
+[       OK ] SignalGeneratorTest.GenerateTriangleWaveValueRange (5 ms)
+[ RUN      ] SignalGeneratorTest.GenerateWhiteNoiseSize
+[       OK ] SignalGeneratorTest.GenerateWhiteNoiseSize (4 ms)
+[ RUN      ] SignalGeneratorTest.GenerateWhiteNoiseValueRange
+[       OK ] SignalGeneratorTest.GenerateWhiteNoiseValueRange (6 ms)
+[----------] 8 tests from SignalGeneratorTest (37 ms total)
 
 [----------] Global test environment tear-down
-[==========] 6 tests from 1 test suite ran. (21 ms total)
-[  PASSED  ] 6 tests.
+[==========] 8 tests from 1 test suite ran. (37 ms total)
+[  PASSED  ] 8 tests.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"SignalGeneratorTest" end time: Mar 20 15:47 KST
+"SignalGeneratorTest" end time: Mar 20 15:53 KST
 "SignalGeneratorTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 20 15:47 KST
+End testing: Mar 20 15:53 KST
