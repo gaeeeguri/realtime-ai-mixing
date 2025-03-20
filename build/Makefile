@@ -276,6 +276,33 @@ src/SignalGenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/SignalGenerator.cpp.s
 .PHONY : src/SignalGenerator.cpp.s
 
+src/SignalProcessor.o: src/SignalProcessor.cpp.o
+.PHONY : src/SignalProcessor.o
+
+# target to build an object file
+src/SignalProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSP_Library.dir/build.make CMakeFiles/DSP_Library.dir/src/SignalProcessor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o
+.PHONY : src/SignalProcessor.cpp.o
+
+src/SignalProcessor.i: src/SignalProcessor.cpp.i
+.PHONY : src/SignalProcessor.i
+
+# target to preprocess a source file
+src/SignalProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSP_Library.dir/build.make CMakeFiles/DSP_Library.dir/src/SignalProcessor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/SignalProcessor.cpp.i
+.PHONY : src/SignalProcessor.cpp.i
+
+src/SignalProcessor.s: src/SignalProcessor.cpp.s
+.PHONY : src/SignalProcessor.s
+
+# target to generate assembly for a file
+src/SignalProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSP_Library.dir/build.make CMakeFiles/DSP_Library.dir/src/SignalProcessor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/SignalProcessor.cpp.s
+.PHONY : src/SignalProcessor.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -324,6 +351,30 @@ tests/test_SignalGenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_SignalGenerator.cpp.s
 .PHONY : tests/test_SignalGenerator.cpp.s
 
+tests/test_SignalProcessor.o: tests/test_SignalProcessor.cpp.o
+.PHONY : tests/test_SignalProcessor.o
+
+# target to build an object file
+tests/test_SignalProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o
+.PHONY : tests/test_SignalProcessor.cpp.o
+
+tests/test_SignalProcessor.i: tests/test_SignalProcessor.cpp.i
+.PHONY : tests/test_SignalProcessor.i
+
+# target to preprocess a source file
+tests/test_SignalProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.i
+.PHONY : tests/test_SignalProcessor.cpp.i
+
+tests/test_SignalProcessor.s: tests/test_SignalProcessor.cpp.s
+.PHONY : tests/test_SignalProcessor.s
+
+# target to generate assembly for a file
+tests/test_SignalProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.s
+.PHONY : tests/test_SignalProcessor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -346,12 +397,18 @@ help:
 	@echo "... src/SignalGenerator.o"
 	@echo "... src/SignalGenerator.i"
 	@echo "... src/SignalGenerator.s"
+	@echo "... src/SignalProcessor.o"
+	@echo "... src/SignalProcessor.i"
+	@echo "... src/SignalProcessor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... tests/test_SignalGenerator.o"
 	@echo "... tests/test_SignalGenerator.i"
 	@echo "... tests/test_SignalGenerator.s"
+	@echo "... tests/test_SignalProcessor.o"
+	@echo "... tests/test_SignalProcessor.i"
+	@echo "... tests/test_SignalProcessor.s"
 .PHONY : help
 
 

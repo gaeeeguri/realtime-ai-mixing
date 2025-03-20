@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DSP_Library.dir/src/SignalGenerator.cpp.o"
   "CMakeFiles/DSP_Library.dir/src/SignalGenerator.cpp.o.d"
+  "CMakeFiles/DSP_Library.dir/src/SignalProcessor.cpp.o"
+  "CMakeFiles/DSP_Library.dir/src/SignalProcessor.cpp.o.d"
   "CMakeFiles/DSP_Library.dir/src/main.cpp.o"
   "CMakeFiles/DSP_Library.dir/src/main.cpp.o.d"
   "DSP_Library"

@@ -86,10 +86,24 @@ CMakeFiles/runTests.dir/tests/test_SignalGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_SignalGenerator.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sjpark/Workspace/soundEngineering/DSP_Library/tests/test_SignalGenerator.cpp -o CMakeFiles/runTests.dir/tests/test_SignalGenerator.cpp.s
 
+CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o: /Users/sjpark/Workspace/soundEngineering/DSP_Library/tests/test_SignalProcessor.cpp
+CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o -MF CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o -c /Users/sjpark/Workspace/soundEngineering/DSP_Library/tests/test_SignalProcessor.cpp
+
+CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sjpark/Workspace/soundEngineering/DSP_Library/tests/test_SignalProcessor.cpp > CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sjpark/Workspace/soundEngineering/DSP_Library/tests/test_SignalProcessor.cpp -o CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.s
+
 CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o: /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalGenerator.cpp
 CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o -MF CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o.d -o CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o -c /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalGenerator.cpp
 
 CMakeFiles/runTests.dir/src/SignalGenerator.cpp.i: cmake_force
@@ -100,22 +114,40 @@ CMakeFiles/runTests.dir/src/SignalGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/src/SignalGenerator.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalGenerator.cpp -o CMakeFiles/runTests.dir/src/SignalGenerator.cpp.s
 
+CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o: /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalProcessor.cpp
+CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o -MF CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o.d -o CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o -c /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalProcessor.cpp
+
+CMakeFiles/runTests.dir/src/SignalProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/src/SignalProcessor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalProcessor.cpp > CMakeFiles/runTests.dir/src/SignalProcessor.cpp.i
+
+CMakeFiles/runTests.dir/src/SignalProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/src/SignalProcessor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sjpark/Workspace/soundEngineering/DSP_Library/src/SignalProcessor.cpp -o CMakeFiles/runTests.dir/src/SignalProcessor.cpp.s
+
 # Object files for target runTests
 runTests_OBJECTS = \
 "CMakeFiles/runTests.dir/tests/test_SignalGenerator.cpp.o" \
-"CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o"
+"CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o" \
+"CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o" \
+"CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o"
 
 # External object files for target runTests
 runTests_EXTERNAL_OBJECTS =
 
 runTests: CMakeFiles/runTests.dir/tests/test_SignalGenerator.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_SignalProcessor.cpp.o
 runTests: CMakeFiles/runTests.dir/src/SignalGenerator.cpp.o
+runTests: CMakeFiles/runTests.dir/src/SignalProcessor.cpp.o
 runTests: CMakeFiles/runTests.dir/build.make
 runTests: lib/libgtest.a
 runTests: lib/libgtest_main.a
 runTests: lib/libgtest.a
 runTests: CMakeFiles/runTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable runTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sjpark/Workspace/soundEngineering/DSP_Library/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

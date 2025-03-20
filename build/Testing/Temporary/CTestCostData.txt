@@ -1,2 +1,2 @@
-SignalGeneratorTest 6 0.093681
+SignalGeneratorTest 8 0.00500161
 ---
